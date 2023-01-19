@@ -7,8 +7,6 @@ function App() {
     <>
       <Header></Header>
       <Article></Article>
-      <Posts></Posts>
-      <h1>teste</h1>;
     </>
   );
 }
