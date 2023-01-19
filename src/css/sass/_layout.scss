@@ -4,11 +4,12 @@ header {
   margin: 0 auto;
 
   padding: 8px 24px;
+  background-color: $white-light;
 }
 
 a {
   text-decoration: none;
-  color: $white-dark;
+  color: $black-light;
 }
 
 .flex {
@@ -35,10 +36,7 @@ a {
 .menu {
   list-style: none;
   display: flex;
-
-  li {
-    margin-left: 24px;
-  }
+  gap: 24px;
 }
 
 .nav-link {
@@ -57,12 +55,12 @@ a {
   height: 40px;
   min-width: 300px;
 
-  background-color: $black-light;
+  background-color: $white-dark;
 
   border: 0;
   border-radius: 4px;
 
-  color: $white-light;
+  color: $black-normal;
   padding: 8px;
 }
 
@@ -75,4 +73,8 @@ a {
 
 .container-posts {
   display: flex;
+}
+
+.logo {
+  width: 70px;
 }

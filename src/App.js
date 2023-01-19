@@ -5,7 +5,6 @@ import Posts from "./components/Posts";
 function App() {
   return (
     <>
-      retornar mais elementos deve se usar esta sintaxe
       <Header></Header>
       <Article></Article>
       <Posts></Posts>

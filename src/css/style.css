@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+  color: #15171a;
   font-family: "Poppins", sans-serif;
 }
 
@@ -55,6 +55,10 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #6d6e70;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
 }
 
 .s-0 {
@@ -664,18 +668,19 @@ p {
 
 body {
   width: 100%;
-  background-color: #2a2b2c;
+  background-color: #f5f7f7;
 }
 
 header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 8px 24px;
+  background-color: #fafcfc;
 }
 
 a {
   text-decoration: none;
-  color: #edeff0;
+  color: #15171a;
 }
 
 .flex {
@@ -701,9 +706,7 @@ a {
 .menu {
   list-style: none;
   display: flex;
-}
-.menu li {
-  margin-left: 24px;
+  gap: 24px;
 }
 
 .nav-link {
@@ -718,10 +721,10 @@ a {
 .input-search {
   height: 40px;
   min-width: 300px;
-  background-color: #15171a;
+  background-color: #edeff0;
   border: 0;
   border-radius: 4px;
-  color: #fafcfc;
+  color: #0d0e10;
   padding: 8px;
 }
 
@@ -734,4 +737,8 @@ a {
 
 .container-posts {
   display: flex;
+}
+
+.logo {
+  width: 70px;
 }/*# sourceMappingURL=style.css.map */
