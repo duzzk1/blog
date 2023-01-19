@@ -3,8 +3,12 @@ import Posts from "../Posts";
 const Article = () => {
   return (
     <section className="container">
-      <h1>Articles</h1>
-      <Posts />
+      <h1 className="tac">Articles</h1>
+      <div className="container-posts mt-4">
+        <Posts />
+        <Posts />
+        <Posts />
+      </div>
     </section>
   );
 };

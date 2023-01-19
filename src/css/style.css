@@ -5,7 +5,7 @@
 }
 
 .color-blue {
-  color: #2dc7ed;
+  color: #15aed4;
 }
 
 h1,
@@ -666,16 +666,14 @@ a {
   padding-bottom: 128px !important;
 }
 
-body {
-  width: 100%;
-  background-color: #f5f7f7;
+.tac {
+  text-align: center;
 }
 
 header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 8px 24px;
-  background-color: #fafcfc;
 }
 
 a {
@@ -697,6 +695,8 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 8px 24px;
+  background-color: #edeff0;
+  border-radius: 10px;
 }
 
 .border {
@@ -731,7 +731,7 @@ a {
 .img-profile {
   width: 56px;
   height: 56px;
-  background-color: #4e4e50;
+  background-color: #a5a6a8;
   border-radius: 50%;
 }
 
@@ -741,4 +741,8 @@ a {
 
 .logo {
   width: 70px;
+}
+
+body {
+  background-color: #f5f7f7;
 }/*# sourceMappingURL=style.css.map */

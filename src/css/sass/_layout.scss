@@ -1,10 +1,7 @@
 header {
   max-width: 1200px;
-
   margin: 0 auto;
-
   padding: 8px 24px;
-  background-color: $white-light;
 }
 
 a {
@@ -24,9 +21,10 @@ a {
 
 .container {
   max-width: 1200px;
-
   margin: 0 auto;
   padding: 8px 24px;
+  background-color: $white-dark;
+  border-radius: 10px;
 }
 
 .border {
@@ -67,7 +65,7 @@ a {
 .img-profile {
   width: 56px;
   height: 56px;
-  background-color: #b7b7b7;
+  background-color: $gray-7;
   border-radius: 50%;
 }
 
