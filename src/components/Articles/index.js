@@ -11,6 +11,8 @@ const Article = () => {
           subtitle="tecnologia"
           title="O primeiro post do blog"
           creatorName="Eduardo Luis"
+          date="Jan 18, 2023"
+          readTime="- 2 min read"
         >
           1oioioio oiuoio
         </Posts>
@@ -18,6 +20,8 @@ const Article = () => {
           subtitle="fotografia"
           title="O segundo post do blog"
           creatorName="Eduardo Santos"
+          date="Jan 18, 2023"
+          readTime="- 5 min read"
         >
           2oioioio oiuoio
         </Posts>
@@ -25,6 +29,8 @@ const Article = () => {
           subtitle="cinema"
           title="O terceiro post do blog"
           creatorName="Duzzk"
+          date="Jan 18, 2023"
+          readTime="- 3 min read"
         >
           3oioioio oiuoio
         </Posts>
